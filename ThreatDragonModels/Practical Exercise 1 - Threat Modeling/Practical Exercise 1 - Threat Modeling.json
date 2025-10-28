@@ -43,8 +43,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "a616df4b-7d25-4247-ad51-7736b5a51b15",
             "zIndex": -1,
+            "id": "a616df4b-7d25-4247-ad51-7736b5a51b15",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Backend System",
@@ -1185,8 +1185,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "74d0be5b-8e96-4032-aa8f-4fc8067fd6c4",
             "zIndex": 11,
+            "id": "74d0be5b-8e96-4032-aa8f-4fc8067fd6c4",
             "data": {
               "type": "tm.Text",
               "name": "Customer Places an Order Diagram",
@@ -1214,6 +1214,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1297,7 +1298,6 @@
               ]
             },
             "id": "1c64c5bf-39c5-41a8-848b-a9c1a07bf63f",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Client Side",
