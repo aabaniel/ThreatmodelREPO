@@ -270,7 +270,7 @@
               "y": 440.0000000000002
             },
             "size": {
-              "width": 870,
+              "width": 100,
               "height": 120
             },
             "attrs": {
@@ -988,7 +988,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Customer Submits Order Details",
+              "name": "Display order confirmation and updated order status",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1001,25 +1001,25 @@
               "threats": []
             },
             "labels": [
-              "Customer Submits Order Details"
+              "Display order confirmation and updated order status"
             ],
-            "id": "e92078ea-a2cf-45e0-a808-54bc7e940a58",
+            "id": "13ac4aa5-2f95-49a2-98ee-a745832ca2ae",
             "source": {
-              "cell": "1bfbbaae-99d0-45d3-8452-2a5174269f18",
-              "port": "94a9f561-0c70-4603-b411-27545fadc8f2"
+              "x": -50,
+              "y": 100
             },
             "target": {
-              "cell": "1c64c5bf-39c5-41a8-848b-a9c1a07bf63f",
-              "port": "8e916a52-8351-4cfb-97f1-d93d26d61363"
+              "x": -410,
+              "y": 100
             },
             "vertices": [
               {
-                "x": -400,
-                "y": -100
+                "x": -150,
+                "y": 150
               },
               {
-                "x": -130,
-                "y": -100
+                "x": -320,
+                "y": 100
               }
             ]
           },
@@ -1043,7 +1043,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Display order confirmation and updated order status",
+              "name": "Customer Submits Order Details",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1056,40 +1056,40 @@
               "threats": []
             },
             "labels": [
-              "Display order confirmation and updated order status"
+              "Customer Submits Order Details"
             ],
-            "id": "13ac4aa5-2f95-49a2-98ee-a745832ca2ae",
+            "id": "e92078ea-a2cf-45e0-a808-54bc7e940a58",
             "source": {
-              "x": 0,
-              "y": -30
+              "x": -420,
+              "y": -10
             },
             "target": {
-              "cell": "1bfbbaae-99d0-45d3-8452-2a5174269f18",
-              "port": "94a9f561-0c70-4603-b411-27545fadc8f2"
+              "x": -50,
+              "y": 0
             },
             "vertices": [
               {
-                "x": -123,
-                "y": -60
+                "x": -340,
+                "y": -10
               },
               {
-                "x": -360,
-                "y": -80
+                "x": -190,
+                "y": 40
               }
             ]
           },
           {
             "position": {
-              "x": 1538,
-              "y": 135.00000000000028
+              "x": 170,
+              "y": -250
             },
             "size": {
-              "width": 112.5,
+              "width": 420,
               "height": 60
             },
             "attrs": {
               "text": {
-                "text": "I think im tweaking"
+                "text": "Customer Places an Order Diagram"
               }
             },
             "visible": true,
@@ -1098,8 +1098,15 @@
             "zIndex": 11,
             "data": {
               "type": "tm.Text",
-              "name": "I think im tweaking",
+              "name": "Customer Places an Order Diagram",
               "hasOpenThreats": false
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1113,7 +1120,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Client Sidee"
+                "text": "Client Side"
               },
               "body": {
                 "stroke": "#333333",
@@ -1209,7 +1216,7 @@
             "zIndex": 12,
             "data": {
               "type": "tm.Process",
-              "name": "Client Sidee",
+              "name": "Client Side",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
