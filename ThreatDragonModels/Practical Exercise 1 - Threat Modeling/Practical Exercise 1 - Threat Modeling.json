@@ -619,7 +619,7 @@
             ]
           }
         ],
-        "description": "t systematically identifies security objectives, critical assets, the application’s profile and decomposition, and potential threats and vulnerabilities."
+        "description": "It systematically identifies security objectives, critical assets, the application’s profile and decomposition, and potential threats and vulnerabilities."
       }
     ],
     "diagramTop": 2,
